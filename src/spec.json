@@ -1,0 +1,182 @@
+{
+  "title": "Scadenzario dell'ufficio – Evento Rovigo",
+  "description": "Comune di Borgoverde (inventato) · Livello 1 del cruscotto dell'ufficio: le scadenze con il semaforo, il calendario e le ricorrenze.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "scadenze",
+      "title": "Scadenze",
+      "description": "Il colore si calcola dalla data. Rosso se mancano meno di 7 giorni o se è passata, giallo da 7 a 30 giorni, verde oltre. «Completata» crea da sola la scadenza dell'anno dopo quando ricorre ogni anno.",
+      "metrics": [],
+      "columns": [
+        "Descrizione",
+        "Data",
+        "Ufficio",
+        "Responsabile",
+        "Riferimento normativo",
+        "Ricorrenza",
+        "Completata"
+      ],
+      "rows": [
+        [
+          "Pubblicazione del Piano integrato di attività e organizzazione",
+          "+3",
+          "Segreteria",
+          "Bianchi",
+          "articolo 6 del decreto-legge 9 giugno 2021, n. 80",
+          "ogni anno",
+          "—"
+        ],
+        [
+          "Relazione annuale del Responsabile della prevenzione della corruzione",
+          "-2",
+          "Segreteria",
+          "Bianchi",
+          "articolo 1, comma 14, della legge 6 novembre 2012, n. 190",
+          "ogni anno",
+          "—"
+        ],
+        [
+          "Approvazione del rendiconto",
+          "+12",
+          "Ragioneria",
+          "Verdi",
+          "articolo 227 del decreto legislativo 18 agosto 2000, n. 267",
+          "ogni anno",
+          "—"
+        ],
+        [
+          "Verifica degli equilibri di bilancio",
+          "+5",
+          "Ragioneria",
+          "Verdi",
+          "articolo 193 del decreto legislativo 18 agosto 2000, n. 267",
+          "ogni anno",
+          "—"
+        ],
+        [
+          "Certificazione dei crediti sulla piattaforma",
+          "+20",
+          "Ragioneria",
+          "Neri",
+          "—",
+          "nessuna",
+          "—"
+        ],
+        [
+          "Aggiornamento della sezione Amministrazione trasparente",
+          "+6",
+          "Segreteria",
+          "Gallo",
+          "decreto legislativo 14 marzo 2013, n. 33",
+          "nessuna",
+          "—"
+        ],
+        [
+          "Invio del conto annuale del personale",
+          "+45",
+          "Personale",
+          "Rizzi",
+          "—",
+          "nessuna",
+          "—"
+        ],
+        [
+          "Piano delle ferie del personale",
+          "+28",
+          "Personale",
+          "Rizzi",
+          "—",
+          "nessuna",
+          "—"
+        ],
+        [
+          "Rinnovo della convenzione per la mensa scolastica",
+          "+60",
+          "Servizi sociali",
+          "Conti",
+          "—",
+          "nessuna",
+          "—"
+        ],
+        [
+          "Censimento delle autorizzazioni paesaggistiche",
+          "+90",
+          "Tecnico",
+          "Marino",
+          "—",
+          "nessuna",
+          "—"
+        ],
+        [
+          "Verifica degli impianti antincendio delle scuole",
+          "+15",
+          "Tecnico",
+          "Marino",
+          "—",
+          "nessuna",
+          "—"
+        ],
+        [
+          "Relazione sulla performance",
+          "+38",
+          "Segreteria",
+          "Bianchi",
+          "articolo 10 del decreto legislativo 27 ottobre 2009, n. 150",
+          "ogni anno",
+          "—"
+        ],
+        [
+          "Comunicazione dei dati delle gare",
+          "+2",
+          "Ragioneria",
+          "Neri",
+          "—",
+          "nessuna",
+          "—"
+        ],
+        [
+          "Revisione dell'albo dei presidenti di seggio",
+          "+75",
+          "Demografici",
+          "Ferri",
+          "—",
+          "nessuna",
+          "—"
+        ],
+        [
+          "Aggiornamento del registro dei trattamenti dei dati",
+          "+33",
+          "Segreteria",
+          "Gallo",
+          "—",
+          "nessuna",
+          "—"
+        ]
+      ],
+      "form": [],
+      "kind": "deadlines",
+      "deadlines": {
+        "dateColumn": 1,
+        "descriptionColumn": 0,
+        "officeColumn": 2,
+        "ownerColumn": 3,
+        "normColumn": 4,
+        "recurrenceColumn": 5,
+        "completedColumn": 6,
+        "yellowUpTo": 45
+      },
+      "chartColumn": 2
+    }
+  ],
+  "custom": [
+    {
+      "name": "DialogoDettaglioScadenze",
+      "title": "Dettaglio delle scadenze",
+      "description": "Elenco selezionabile con dialogo di dettaglio della scadenza.",
+      "role": "section",
+      "pageId": "scadenze",
+      "position": "bottom"
+    }
+  ]
+}
